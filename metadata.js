@@ -13,6 +13,18 @@
 		},
 		PLUGINS: [
 			{
+				name: 'monaco-botbuilder-lg',
+				contrib: 'vs/language/botbuilder-lg/monaco.contribution',
+				modulePrefix: 'vs/language/botbuilder-lg',
+				thirdPartyNotices: 'node_modules/monaco-botbuilder-lg/ThirdPartyNotices.txt',
+				paths: {
+					src: '/monaco-botbuilder-lg/release/dev',
+					'npm/dev': 'node_modules/monaco-botbuilder-lg/release/dev',
+					'npm/min': 'node_modules/monaco-botbuilder-lg/release/min',
+					esm: 'node_modules/monaco-botbuilder-lg/release/esm',
+				}
+			},
+			{
 				name: 'monaco-typescript',
 				contrib: 'vs/language/typescript/monaco.contribution',
 				modulePrefix: 'vs/language/typescript',

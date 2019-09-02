@@ -1,7 +1,7 @@
 {
   "name": "monaco-editor",
   "private": true,
-  "version": "0.17.1",
+  "version": "0.17.1-composer.1",
   "description": "A browser based code editor",
   "author": "Microsoft Corporation",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "module": "./esm/vs/editor/editor.main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/monaco-editor"
+    "url": "https://github.com/zhixzhan/monaco-editor"
   },
   "devDependencies": {
     "clean-css": "^4.2.1",
@@ -23,6 +23,7 @@
     "gulp": "^4.0.0",
     "gulp-typedoc": "^2.2.2",
     "http-server": "^0.11.1",
+    "monaco-botbuilder-lg": "https://github.com/cosmicshuai/monaco-botbuilder-lg/releases/download/0.1.1/monaco-botbuilder-lg-0.1.1.tgz",
     "monaco-css": "2.5.0",
     "monaco-editor-core": "0.17.0",
     "monaco-html": "2.5.2",
