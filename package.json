@@ -1,7 +1,7 @@
 {
   "name": "@bfcomposer/monaco-editor",
   "private": true,
-  "version": "0.18.1",
+  "version": "0.18.2",
   "description": "A browser based code editor",
   "author": "Microsoft Corporation",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "event-stream": "3.3.4",
     "gulp": "^4.0.0",
     "gulp-typedoc": "^2.2.2",
-    "monaco-botbuilder-lg": "https://github.com/cosmicshuai/monaco-botbuilder-lg/releases/download/1.0.3/monaco-botbuilder-lg-1.0.3.tgz",
+    "monaco-botbuilder-lg": "https://github.com/cosmicshuai/monaco-botbuilder-lg/releases/download/1.1.0/monaco-botbuilder-lg-1.1.0.tgz",
     "monaco-css": "2.5.1",
     "monaco-editor-core": "0.18.1",
     "monaco-html": "2.5.3",
